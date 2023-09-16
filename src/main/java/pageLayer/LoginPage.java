@@ -10,7 +10,6 @@ public class LoginPage {
    
 	public LoginPage(WebDriver driver)
 	{
-		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -22,6 +21,7 @@ public class LoginPage {
 
 	@FindBy(xpath="//*[@id=\"login\"]")
 	private WebElement loginBtn;
+	
 	
 	public void enterUsername(String un)
 	{

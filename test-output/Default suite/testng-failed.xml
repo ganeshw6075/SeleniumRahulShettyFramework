@@ -6,7 +6,7 @@
       <class name="testLayer.LoginTest">
         <methods>
           <include name="start"/>
-          <include name="verifyLogin" invocation-numbers="0 2 3"/>
+          <include name="verifyLogin"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testLayer.LoginTest -->
